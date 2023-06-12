@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text(
           'Calculator',
+          style: TextStyle(fontSize: 35),
         ),
       ),
       body: Container(
@@ -89,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 _output,
                 style: TextStyle(
                     fontSize: MediaQuery.of(context).size.height * 0.07,
-                    color: Colors.grey),
+                    color: Colors.black54),
               ),
             ),
             Padding(
